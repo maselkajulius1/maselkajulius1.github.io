@@ -1,9 +1,11 @@
 .website-background {
     background-color: rgb(18, 101, 112); 
-    font-size: 60px;
 }
 
 .big-letters {
     font-size: 200px;
 }
 
+.medium-letters {
+    font-size: 60px;
+}

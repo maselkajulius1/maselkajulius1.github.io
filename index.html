@@ -6,27 +6,31 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./index.css" />
+        <script src="math.js"></script>
     </header>
     <body class="website-background">
         <div class="container">
-            <div class="row justify-content-center">
-                <div>
-                    <h1>I like cheese</h1>
-                    <h3>Also I like video games</h3>
-                    <h5>apples and oranges are good too</h5>
-                    <h6>But the best of all...</h6>
-                    <p class="big-letters">PROGRAMING!</p>
-                    <p class="medium-letters">My favorite game!:</p>
-                    <p><img src="call-of-duty-modern-warfare-2019.png" alt="My favorite game"/></p>
-                    <p>seriously play cod mw 2019 its good</p>
-                    <h2>sunny D is awsome!</h2>
-                    <p class="medium-letters">wooooooooooooooooooooooooooooooooooooooo</p>
-                    <p class="medium-letters">wooooooo00000000000ooooooooo0000o</p>
-                    <p class="medium-letters">w0o0o0o00o0o0o0o00o0o0o000ooo</p>
-                    <p class="colored-letters big-letters">weee ooo weee ooo</p>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h1>Calculator</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="form-group">
+                        <label for="numberOneInput">Number 1</label>
+                        <input id="numberOneInput" class="form-control" placeholder="Enter number 1" />
+                        <label for="numberTwoInput">Number 2</label>
+                        <input id="numberTwoInput" class="form-control" placeholder="Enter number 2" />
+                        <button class="btn btn-danger" onclick="add()">Add</button>
+                        <button class="btn btn-danger" onclick="subtract()">Subtract</button>
+                        <button class="btn btn-danger" onclick="multiply()">Multiply</button>
+                        <button class="btn btn-danger" onclick="divide()">Divide</button>
+                        <p class="medium-letters" id="result:"></p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="justify-content-center">
+                <h1>I like to program. At the moment of programing this I am using a programing language called HTML</h1>
+            </div>
         </div>
     </body>
 </html>

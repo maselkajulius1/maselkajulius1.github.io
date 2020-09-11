@@ -5,7 +5,7 @@ function multiply() {
     var product = numberOne * numberTwo
     
     var resultElement = document.getElementById("result")
-    resultElement.innerText = 'result ' + product
+    resultElement.innerText = 'result: ' + product
 }
 
 function divide() {
@@ -15,7 +15,7 @@ function divide() {
     var quotient = numberOne / numberTwo
 
     var resultElement = document.getElementById("result")
-    resultElement.innerText = 'result ' + quotient
+    resultElement.innerText = 'result: ' + quotient
 }
 
 function add() {
@@ -25,7 +25,7 @@ function add() {
     var sum = numberOne + numberTwo
 
     var resultElement = document.getElementById("result")
-    resultElement.innerText = 'result' + sum
+    resultElement.innerText = 'result: ' + sum
 }
 
 function subtract() {
@@ -35,5 +35,5 @@ function subtract() {
     var difference = numberOne - numberTwo
 
     var resultElement = document.getElementById("result")
-    resultElement.innerText = 'result' + difference
+    resultElement.innerText = 'result: ' + difference
 }

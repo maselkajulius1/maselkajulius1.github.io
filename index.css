@@ -1,19 +1,30 @@
 .website-background {
-    background-color: rgb(18, 101, 112); 
-}
-
-.big-letters {
-    font-size: 200px;
-}
-
-.medium-letters {
-    font-size: 60px;
-}
-
-.colored-letters {
-    color: rgba(255, 0, 0, 0.856);
+    background-color: rgb(24, 28, 29); 
 }
 
 #result {
     color: red; 
+}
+
+h1 {
+    color: gray;
+    text-shadow: -2px 2px lightblue;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+.page-link {
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin-left: 15px;
+    background-color: rgb(24, 28, 29);
+    display: inline-block;
+    padding: 3px;
 }

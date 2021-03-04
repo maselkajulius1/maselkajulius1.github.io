@@ -12,9 +12,16 @@
         <section>
             <a href="index.html" class="page-link">About me</a>
             <a href="Discord.html" class="page-link">Discord</a>
-            <a href="Calculator.html" class="page-link">Calculator</a>
+            <a href="" class="page-link">Calculator</a>
         </section>
-        <h1>My discord</h1>
-        <div>You can join my discord server by clicking <a href="https://discord.gg/SMWQWWP">here!</a></div>
+        <h1>Calculator</h1>
+        <input type="text" name="1st number" id="numberOneInput">
+        <input type="text" name="2nd number" id=numberTwoInput>
+        <br>
+        <button class="btn-danger" onclick="add()">Add</button>
+        <button class="btn-danger" onclick="subtract()">Subtract</button>
+        <button class="btn-danger" onclick="multiply()">Multiply</button>
+        <button class="btn-danger" onclick="divide()">Divide</button>
+        <div id="result" class="result"></div>
     </body>
 </html>

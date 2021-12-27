@@ -3,12 +3,22 @@
 }
 
 #result {
-    color: red; 
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+#percentResult {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
 }
 
 h1 {
     color: rgb(12, 61, 196);
-    text-shadow: -2px 2px lightblue;
+    text-shadow: -0.5px 1px lightblue;
     text-align: center;
 }
 
@@ -16,10 +26,32 @@ p {
     color: rgb(12, 61, 196);
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
 }
 
-div {
-    color: white;
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calculator-1 {
+    flex: 1;
+    order: 1;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.calculator-button {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.calculator-alert {
+    margin-top: 20px;
 }
 
 .page-link {
@@ -29,10 +61,4 @@ div {
     background-color: rgb(24, 28, 29);
     display: inline-block;
     padding: 2px;
-}
-
-.result {
-    font-family: fantasy;
-    font-size: 28px;
-    font-weight: lighter;
 }

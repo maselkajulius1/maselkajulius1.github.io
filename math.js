@@ -37,3 +37,14 @@ function subtract() {
     var resultElement = document.getElementById("result")
     resultElement.innerText = 'result: ' + difference
 }
+
+function percentage() {
+    var initialValue = document.getElementById("initialValueInput").value
+    var percentValue = document.getElementById("percentValueInput").value
+
+    var percentValue = percentValue / 100
+    var finalValue = initialValue * percentValue
+
+    var resultElement = document.getElementById("percentResult")
+    resultElement.innerText = 'result: ' + finalValue
+}

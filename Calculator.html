@@ -6,22 +6,33 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./index.css" />
-        <script src="math.js"></script>
+        <script src="math.js"></script> 
     </header>
     <body class="website-background">
         <section>
             <a href="index.html" class="page-link">About me</a>
             <a href="Discord.html" class="page-link">Discord</a>
             <a href="Calculator.html" class="page-link">Calculator</a>
+            <h1>Calculator</h1>
         </section>
-        <h1>Calculator</h1>
-        <input type="text" name="1st number" id="numberOneInput" placeholder="1st number">
-        <input type="text" name="2nd number" id="numberTwoInput" placeholder="2nd number">
-        <br>
-        <button class="btn-danger" onclick="add()">Add</button>
-        <button class="btn-danger" onclick="subtract()">Subtract</button>
-        <button class="btn-danger" onclick="multiply()">Multiply</button>
-        <button class="btn-danger" onclick="divide()">Divide</button>
-        <div id="result" class="result"></div>
+        <div class="container-1">
+            <div class="calculator-1">
+                <input type="text" name="1st number" id="numberOneInput" placeholder="1st number">
+                <input type="text" name="2nd number" id="numberTwoInput" placeholder="2nd number">
+                <br>
+                <button class="btn btn-lg btn-danger calculator-button" onclick="add()">Add</button>
+                <button class="btn btn-lg btn-danger calculator-button" onclick="subtract()">Subtract</button>
+                <br>
+                <button class="btn btn-lg btn-danger calculator-button" onclick="multiply()">Multiply</button>
+                <button class="btn btn-lg btn-danger calculator-button" onclick="divide()">Divide</button>
+                <div id="result"></div>
+                <div class="alert alert-success alert-dismissible calculator-alert" role="alert">
+                    <h3 class="alert-header">Did you like the calculator?</h3>
+                    <div>If you enjoyed using the basic calculator you may like the <a href="percentageCalculator.html">percentage calculator</a> also made by Julius.</div>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

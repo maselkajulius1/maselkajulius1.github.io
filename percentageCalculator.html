@@ -25,10 +25,12 @@
             <button class="btn btn-success" style="margin-left:100px" onclick="password()">Submit</button>
         </div>
         <div class="container-1" style="display:none" id="calculator">
-            <h1 id="user-title">blah blah</h1>
+            <h1 id="user-title"></h1>
             <div class="calculator-1">
-                <input type="text" name="number" id="initialValueInput" placeholder="number">
-                <input type="text" name="percent" id="percentValueInput" placeholder="percent">
+                <form>
+                    <input class="form-control calculator-form" style="margin-top: 20px;" type="text" name="number" id="initialValueInput" placeholder="number">
+                    <input class="form-control calculator-form" style="margin-top: 20px;" type="text" name="percent" id="percentValueInput" placeholder="percent">
+                </form>
                 <br>
                 <button class="btn btn-lg btn-danger calculator-button" onclick="percentage()">Run</button>
                 <div id=percentResult></div>

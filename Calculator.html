@@ -14,12 +14,21 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">About Me</a></li>
                 <li class="nav-item"><a class="nav-link" href="Discord.html">Discord</a></li>
                 <li class="nav-item active" aria-current="page"><a class="nav-link" href="Calculator.html">Calculator</a></li>
+                <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My other sites</div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://maselkajulius1.github.io/modern-warfare-2019/" target="_blank">COD Modern Warfare</a>
+                        <a class="dropdown-item" href="https://maselkajulius1.github.io/minecraft-command-tutorial/" target="_blank">Minecraft Command Tutorials</a>
+                    </div>
+                </li>
             </ul>
         </nav>
         <div class="container-1">
             <div class="calculator-1">
-                <input type="text" name="1st number" id="numberOneInput" placeholder="1st number">
-                <input type="text" name="2nd number" id="numberTwoInput" placeholder="2nd number">
+                <form>
+                    <input class="form-control calculator-form" style="margin-top: 20px;" type="text" name="1st number" id="numberOneInput" placeholder="1st number">
+                    <input class="form-control calculator-form" style="margin-top: 20px;" type="text" name="2nd number" id="numberTwoInput" placeholder="2nd number">
+                </form>
                 <br>
                 <button class="btn btn-lg btn-danger calculator-button" onclick="add()">Add</button>
                 <button class="btn btn-lg btn-danger calculator-button" onclick="subtract()">Subtract</button>
@@ -27,12 +36,14 @@
                 <button class="btn btn-lg btn-danger calculator-button" onclick="multiply()">Multiply</button>
                 <button class="btn btn-lg btn-danger calculator-button" onclick="divide()">Divide</button>
                 <div id="result"></div>
-                <div class="alert alert-success alert-dismissible calculator-alert" role="alert">
-                    <h3 class="alert-header">Did you like the calculator?</h3>
-                    <div>If you enjoyed using the basic calculator you may like the <a href="percentageCalculator.html">percentage calculator</a> also made by Julius.</div>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </div>
+            </div>
+        </div>
+        <div class="alert-1">
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <h3 class="alert-header">Did you like the calculator?</h3>
+                <div>If you enjoyed using the basic calculator you may like the <a href="percentageCalculator.html">percentage calculator</a> also made by Julius.</div>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
             </div>
         </div>
     </body>
